@@ -1,0 +1,7 @@
+<meta>
+    <info author="Sherman" version="1.0" type="script"/>	
+    <script src="cartexturenscript.lua" type="client"/>
+    <file src="admiral.txd" type="client"/>
+    <file src="admiral.dff" type="client"/>
+</meta>
+

@@ -1,0 +1,5 @@
+<meta>
+	<info author="MoPoMaN" version="1.0" type="script" name="Speaker system" description="Create your own 3D sound speakers." />
+	<script src="client.lua" type="client" />
+	<script src="server.lua" type="server" />
+</meta>

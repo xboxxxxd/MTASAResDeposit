@@ -1,0 +1,7 @@
+<meta>
+    <info author="[MOGAHQ]ssmoke" version="1.0" type="script"/>	
+    <script src="cartexturenscript.lua" type="client"/>
+    <file src="dwmolc1.txd" type="client"/>
+    <file src="dwmolc1.dff" type="client"/>
+</meta>
+

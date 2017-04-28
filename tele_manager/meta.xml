@@ -1,0 +1,11 @@
+<meta>
+	<info author="Dr.PhillyBlunt" version="1.0" type="script" name="Teleport Manager" description="This resource allows you to save your favorite teleport locations into a user friendly GUI." />
+	<settings>
+		<setting name="#Max Teleports" value="24" /><!--This value currently has absolutely no influence on the number of teleports you are allowed to create. I haven't scripted it yet-->
+	</settings>
+	<script src="client_GUI.lua" type="client" />
+	<script src="client_Click.lua" type="client" />
+	<script src="client_Script.lua" type="client" />
+	<config src="warps.xml" type="server" />
+	<script src="server_Script.lua" type="server" />
+</meta>

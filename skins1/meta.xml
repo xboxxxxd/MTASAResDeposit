@@ -1,0 +1,14 @@
+<meta>
+<info author="MTA Resource Massive Replacement" description="www.mta-resource.ru" version="1.3" type="script" />
+<script src="client.lua" type="client"/>
+<file src="wmybmx.dff" type="client"/>
+<file src="wmybmx.txd" type="client"/>
+<file src="wmydrug.dff" type="client"/>
+<file src="wmydrug.txd" type="client"/>
+<file src="bmypol2.dff" type="client"/>
+<file src="bmypol2.txd" type="client"/>
+<file src="fam1.dff" type="client"/>
+<file src="fam1.txd" type="client"/>
+<file src="fam2.dff" type="client"/>
+<file src="fam2.txd" type="client"/>
+</meta>

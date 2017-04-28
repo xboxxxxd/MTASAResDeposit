@@ -1,0 +1,17 @@
+<teleports>
+    <teleport x="2974.5762" y="-1744.3242" z="37.364269" rot="240.2205" type="both" desc="Touge Project Touge"></teleport>
+    <teleport x="-827.93286" y="559.81952" z="16.205736" rot="180.61172" type="both" desc="Ebisu"></teleport>
+    <teleport x="-1277.5208" y="12.052474" z="14.148438" rot="135.17801" type="both" desc="AMANDA V3"></teleport>
+    <teleport x="-2022.5111" y="168.92081" z="28.835938" rot="253.5957" type="both" desc="SF SPAWN"></teleport>
+    <teleport x="-2455.7163" y="1346.2064" z="25.180754" rot="1.3833008" type="both" desc="Stunt Map"></teleport>
+    <teleport x="-303.40649" y="1528.9814" z="75.359375" rot="198.18192" type="both" desc="BigEar Drift Track"></teleport>
+    <teleport x="-2887.1506" y="473.21301" z="4.4219413" rot="91.174591" type="both" desc="Drag Strip"></teleport>
+    <teleport x="-1526.7487" y="470.60016" z="7.1875" rot="127.85577" type="both" desc="Dock Drift"></teleport>
+    <teleport x="1492.7842" y="994.23657" z="10.820313" rot="100.77667" type="both" desc="Remo LV drift track"></teleport>
+    <teleport x="-395.64667" y="281.49203" z="2.0854034" rot="267.23712" type="both" desc="Beach Party"></teleport>
+    <teleport x="-158.79659" y="-3374.1201" z="364.72113" rot="7.2470398" type="both" desc="Touge Okaru Downhill"></teleport>
+    <teleport x="-1059.3503" y="-3034.7021" z="66.85154" rot="170.02106" type="both" desc="Touge Okaru Uphill"></teleport>
+    <teleport x="-2771.2395" y="-2299.48" z="5.0257196" rot="43.187073" type="both" desc="Fantasy hill"></teleport>
+    <teleport x="-3039.6667" y="1243.0223" z="4.482327" rot="98.149292" type="both" desc="Akina"></teleport>
+    <teleport x="-3451.3682" y="1647.2312" z="322.10001" rot="191.67392" type="both" desc="Akina Downhill"></teleport>
+</teleports>

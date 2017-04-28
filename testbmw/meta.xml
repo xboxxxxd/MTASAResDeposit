@@ -1,0 +1,7 @@
+<meta>
+    <info author="Skill3d aka Mr.Worm" version="1.0" type="script"/>	
+    <script src="cartexturenscript.lua" type="client"/>
+    <file src="alpha.txd" type="client"/>
+    <file src="alpha.dff" type="client"/>
+</meta>
+
