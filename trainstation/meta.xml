@@ -1,0 +1,5 @@
+<meta>
+<info author="by https://vk.com/justlowbpan" description="by https://vk.com/justlowbpan" version="1.3" type="script" />
+<script src="client.lua" type="client"/>
+<file src="justlowbpan.txd" type="client"/>
+</meta>

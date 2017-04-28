@@ -1,0 +1,420 @@
+<map mod="deathmatch" version="1.0">
+	<respawn time="4500"/>
+	
+	<team name="Alice" red="255" green="255" blue="255">
+		<camera lookX="2428.8078613281" lookY="143.34281921387" lookZ="34.379825592041" posX="2431.7458496094" posY="141.13592529297" posZ="35.011535644531"/>
+		<weapon model="4" ammo="1"/>
+		<weapon model="22" ammo="30"/>
+		<weapon model="29" ammo="65"/>
+		<skin model="192"/>
+		<spawnpoint posX="2429.640625" posY="134.83293151855" posZ="26.460830688477" rot="0"/>
+		<spawnpoint posX="2427.7365722656" posY="135.69166564941" posZ="26.460830688477" rot="0"/>
+		<spawnpoint posX="2425.8754882813" posY="138.01473999023" posZ="26.460830688477" rot="0"/>
+		<spawnpoint posX="2427.0769042969" posY="139.75262451172" posZ="26.460830688477" rot="0"/>
+	</team>
+	<team name="Ash" red="255" green="255" blue="255">
+		<camera lookX="2357.4392089844" lookY="-112.00109100342" lookZ="29.467241287231" posX="2356.9682617188" posY="-109.42100524902" posZ="30.467241287231"/>
+		<weapon model="26" ammo="30"/>
+		<weapon model="9" ammo="1"/>
+		<skin model="274"/>
+		<spawnpoint posX="2351.599609375" posY="-109.5590057373" posZ="28.467241287231" rot="0"/>
+		<spawnpoint posX="2352.8176269531" posY="-110.73614501953" posZ="28.467241287231" rot="0"/>
+		<spawnpoint posX="2353.9321289063" posY="-111.7732925415" posZ="28.467241287231" rot="0"/>
+		<spawnpoint posX="2355.0539550781" posY="-113.06929016113" posZ="28.467241287231" rot="0"/>
+	</team>
+	<team name="Guitar Wolf" red="255" green="255" blue="255">
+		<camera lookX="2315.5805664063" lookY="82.104393005371" lookZ="33.090339660645" posX="2308.0070800781" posY="81.963356018066" posZ="33.090339660645"/>
+		<weapon model="8" ammo="1"/>
+		<weapon model="24" ammo="40"/>
+		<weapon model="18" ammo="15"/>
+		<skin model="84"/>
+		<spawnpoint posX="2312.4489746094" posY="83.26766204834" posZ="26.480354309082" rot="180"/>
+		<spawnpoint posX="2329.9526367188" posY="-14.426544189453" posZ="31.1875" rot="180"/>
+		<spawnpoint posX="2411.107421875" posY="96.522506713867" posZ="26.527690887451" rot="180"/>
+		<spawnpoint posX="2466.642578125" posY="-44.758388519287" posZ="26.527690887451" rot="180"/>		
+	</team>
+	<team name="Frank" red="255" green="255" blue="255">
+		<camera lookX="2240.1259765625" lookY="-84.744682312012" lookZ="26.49845123291" posX="2240.0979003906" posY="-63.215404510498" posZ="32.27921295166"/>
+		<weapon model="5" ammo="1"/>
+		<weapon model="22" ammo="30"/>
+		<weapon model="25" ammo="20"/>
+		<weapon model="43" ammo="20"/>
+		<skin model="111"/>
+		<spawnpoint posX="2547.3435058594" posY="114.69689178467" posZ="26.545654296875" rot="0"/>
+		<spawnpoint posX="2430.9216308594" posY="111.81815338135" posZ="26.501592636108" rot="0"/>
+		<spawnpoint posX="2315.8759765625" posY="165.35766601563" posZ="28.0416431427" rot="0"/>
+		<spawnpoint posX="2196.501953125" posY="7.3327736854553" posZ="23.419046401978" rot="0"/>
+	</team>	
+
+    <object id="object (DYN_F_WOOD_3) (24)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="69.014320373535" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" purpose="zombiewood" />
+    <object id="object (DYN_F_WOOD_3) (25)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="70.839309692383" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" purpose="zombiewood" />
+    <object id="object (DYN_F_WOOD_3) (26)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="72.614280700684" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (3)" dimension="0" interior="0" model="1448" posX="2316.1003417969" posY="37.043292999268" posZ="8.8550176620483" rotX="0" rotY="89.999969482422" rotZ="0" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (4)" dimension="0" interior="0" model="1448" posX="2316.1003417969" posY="37.043292999268" posZ="10.029999732971" rotX="0" rotY="89.999969482422" rotZ="0" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (5)" dimension="0" interior="0" model="1448" posX="2316.1003417969" posY="35.993228912354" posZ="10.029999732971" rotX="0" rotY="89.999969482422" rotZ="0" purpose="zombiewood" />
+    <object id="zombiewood" dimension="0" interior="0" model="3260" posX="2408.658203125" posY="87.528442382813" posZ="25.19815826416" rotX="354.54504394531" rotY="357.25" rotZ="269.37994384766" purpose="zombiewood" />
+    <object id="object (oldwoodpanel) (1)" dimension="0" interior="0" model="3260" posX="2303.9353027344" posY="-15.848642349243" posZ="26.309551239014" rotX="0.97000122070313" rotY="81.445007324219" rotZ="270.18988037109" purpose="zombiewood" />
+    <object id="object (oldwoodpanel) (2)" dimension="0" interior="0" model="3260" posX="2316.3774414063" posY="0.81960332393646" posZ="26.284551620483" rotX="359.91003417969" rotY="253.91003417969" rotZ="357.97991943359" purpose="zombiewood" />
+    <object id="zobiewood" dimension="0" interior="0" model="3260" posX="2348.017578125" posY="-108.1449432373" posZ="28.330448150635" rotX="356.02990722656" rotY="102.28494262695" rotZ="132.29028320313" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (6)" dimension="0" interior="0" model="1448" posX="2212.6154785156" posY="129.12561035156" posZ="28.946420669556" rotX="0.22494506835938" rotY="89.999938964844" rotZ="354.04504394531" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (7)" dimension="0" interior="0" model="1448" posX="2212.6901855469" posY="129.9006652832" posZ="29.821418762207" rotX="45.879974365234" rotY="89.999938964844" rotZ="354.04504394531" purpose="zombiewood" />
+    <object id="object (DYN_CRATE_1) (8)" dimension="0" interior="0" model="1448" posX="2212.4909667969" posY="129.9006652832" posZ="28.921417236328" rotX="99.474945068359" rotY="89.999938964844" rotZ="354.04504394531" purpose="zombiewood" />
+    <object id="object (palette) (3)" dimension="0" interior="0" model="3260" posX="2548.6750488281" posY="116.5232925415" posZ="26.423446655273" rotX="0.73501586914063" rotY="101.23495483398" rotZ="88.590026855469" purpose="zombiewood" />
+    <object id="object (oldwoodpanel) (3)" dimension="0" interior="0" model="3260" posX="2359.3422851563" posY="-105.56996917725" posZ="28.505445480347" rotX="356.02990722656" rotY="102.28494262695" rotZ="132.29028320313" purpose="zombiewood" />
+    <object id="object (oldwoodpanel) (4)" dimension="0" interior="0" model="3260" posX="2418.1879882813" posY="98.32844543457" posZ="25.19815826416" rotX="4.5150146484375" rotY="337.30999755859" rotZ="88.839965820313" purpose="zombiewood" />
+	<object id="newstuffhere" dimension="0" interior="0" model="3260" posX="2322.8286132813" posY="6.7196049690247" posZ="26.284551620483" rotX="359.91003417969" rotY="242.00006103516" rotZ="269.92059326172" purpose="zombiewood"/>
+    <object id="object (oldwoodpanel) (5)" dimension="0" interior="0" model="3260" posX="2333.6513671875" posY="6.944607257843" posZ="26.234552383423" rotX="0.175048828125" rotY="285.91979980469" rotZ="90.1005859375" purpose="zombiewood"/>
+	
+	
+	<object id="object (CE_terminal1) (1)" dimension="0" interior="0" model="13295" posX="2249.9311523438" posY="47.402866363525" posZ="31.82667350769" rotX="0" rotY="0" rotZ="269.77990722656" />
+    <object id="object (sw_fact02) (1)" dimension="0" interior="0" model="12988" posX="2392.91015625" posY="164.06321716309" posZ="23.250288009644" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (cos_liquorshop) (1)" dimension="0" interior="0" model="12843" posX="2413.4243164063" posY="89.255645751953" posZ="25.51615524292" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (cos_liqinside) (1)" dimension="0" interior="0" model="12844" posX="2413.4252929688" posY="92.227096557617" posZ="27.496921539307" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (cos_liqinsidebits) (1)" dimension="0" interior="0" model="12845" posX="2413.8940429688" posY="92.116851806641" posZ="27.677871704102" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (sw_SHED06) (1)" dimension="0" interior="0" model="12929" posX="2436.1723632813" posY="114.48573303223" posZ="25.493883132935" rotX="0" rotY="0" rotZ="180.57470703125" />
+    <object id="object (sw_shedInterior04) (1)" dimension="0" interior="0" model="12928" posX="2436.1762695313" posY="114.49096679688" posZ="25.501592636108" rotX="0" rotY="0" rotZ="180.54052734375" />
+    <object id="object (sw_SHED07) (1)" dimension="0" interior="0" model="12943" posX="2464.0998535156" posY="-42.714237213135" posZ="25.494388580322" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sw_shedInterior01) (1)" dimension="0" interior="0" model="12942" posX="2464.0825195313" posY="-42.709369659424" posZ="25.484375" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (sw_SHED06) (2)" dimension="0" interior="0" model="12929" posX="2228.439453125" posY="-115.95098876953" posZ="25.484375" rotX="0" rotY="0" rotZ="269.72973632813" />
+    <object id="object (sw_SHED06) (3)" dimension="0" interior="0" model="12929" posX="2216.4233398438" posY="-121.28602600098" posZ="25.484363555908" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (otunnel) (1)" dimension="0" interior="0" model="13651" posX="2223.1633300781" posY="-82.353378295898" posZ="10.292221069336" rotX="0" rotY="0.5" rotZ="0" />
+    <object id="object (sw_shedInterior04) (2)" dimension="0" interior="0" model="12928" posX="2216.3984375" posY="-121.26789855957" posZ="25.727996826172" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (sw_shedInterior04) (3)" dimension="0" interior="0" model="12928" posX="2228.4597167969" posY="-115.93288421631" posZ="25.503000259399" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (logcabinn) (1)" dimension="0" interior="0" model="18267" posX="2355.2163085938" posY="-108.60082244873" posZ="27.389116287231" rotX="0" rotY="0" rotZ="41.684997558594" />
+    <object id="object (boatoffice_sfn) (1)" dimension="0" interior="0" model="9361" posX="2547.01953125" posY="117.00955963135" posZ="27.920654296875" rotX="0" rotY="0" rotZ="43.850036621094" />
+    <object id="object (des_byoffice) (1)" dimension="0" interior="0" model="16326" posX="2205.2956542969" posY="124.44724273682" posZ="25.669662475586" rotX="0" rotY="0" rotZ="271.93981933594" />
+    <object id="object (gasstatiohut) (1)" dimension="0" interior="0" model="11292" posX="2251.80859375" posY="-86.004753112793" posZ="26.966857910156" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_OUTHOUSE_2) (1)" dimension="0" interior="0" model="1457" posX="2461.0903320313" posY="-54.089881896973" posZ="27.143798828125" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_OUTHOUSE_2) (2)" dimension="0" interior="0" model="1457" posX="2545.7585449219" posY="-21.085083007813" posZ="27.286468505859" rotX="0" rotY="0" rotZ="73.445007324219" />
+    <object id="object (cuntw_weebarn1_) (1)" dimension="0" interior="0" model="17039" posX="2430.7060546875" posY="139.56527709961" posZ="24.865879058838" rotX="0" rotY="0" rotZ="49.850006103516" />
+    <object id="object (CE_logbarn02) (1)" dimension="0" interior="0" model="3419" posX="2192.6169433594" posY="7.3611602783203" posZ="21.660373687744" rotX="11.174987792969" rotY="356.29498291016" rotZ="267.70501708984" />
+    <object id="object (ab_sfAmmuMain) (1)" dimension="0" interior="0" model="18065" posX="2340.2438964844" posY="66.626029968262" posZ="22.066402435303" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (ab_sfAmmuUnits) (1)" dimension="0" interior="0" model="18064" posX="2335.8059082031" posY="66.639717102051" posZ="21.855400085449" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_CB_LIST1) (2)" dimension="0" interior="0" model="2765" posX="2323.3576660156" posY="72.199440002441" posZ="20.822860717773" rotX="0" rotY="23.819915771484" rotZ="179.98999023438" />
+    <object id="object (CJ_CB_LIST1) (3)" dimension="0" interior="0" model="2765" posX="2322.1047363281" posY="72.249443054199" posZ="20.247869491577" rotX="0" rotY="290.52496337891" rotZ="179.98999023438" />
+    <object id="object (burbdoor) (1)" dimension="0" interior="0" model="13187" posX="2332.7380371094" posY="64.074714660645" posZ="21.12984085083" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (burbdoor) (2)" dimension="0" interior="0" model="13187" posX="2332.7878417969" posY="68.074714660645" posZ="21.12984085083" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (int_pizzaplace) (1)" dimension="0" interior="0" model="18023" posX="2320.6916503906" posY="76.350715637207" posZ="17.228178024292" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (int_pizzaplace) (2)" dimension="0" interior="0" model="18023" posX="2329.9128417969" posY="76.325714111328" posZ="17.203178405762" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_PIZZA_TABLE2) (1)" dimension="0" interior="0" model="2637" posX="2329.2092285156" posY="82.29598236084" posZ="15.515730857849" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_PIZZA_CHAIR3) (1)" dimension="0" interior="0" model="2639" posX="2330.7385253906" posY="82.197479248047" posZ="15.738649368286" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_PIZZA_CHAIR2) (1)" dimension="0" interior="0" model="2638" posX="2327.3664550781" posY="82.23299407959" posZ="15.771235466003" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_PIZZA_TABLE2) (2)" dimension="0" interior="0" model="2637" posX="2325.6584472656" posY="82.29598236084" posZ="15.515730857849" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_PIZZA_TABLE2) (3)" dimension="0" interior="0" model="2637" posX="2329.2092285156" posY="70.420959472656" posZ="15.515730857849" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_PIZZA_TABLE2) (4)" dimension="0" interior="0" model="2637" posX="2325.8327636719" posY="70.395973205566" posZ="15.515730857849" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_PIZZA_CHAIR2) (2)" dimension="0" interior="0" model="2638" posX="2327.3664550781" posY="70.457992553711" posZ="15.771235466003" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_PIZZA_CHAIR3) (2)" dimension="0" interior="0" model="2639" posX="2330.7385253906" posY="70.522453308105" posZ="15.738649368286" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_PIZZA_CHAIR3) (3)" dimension="0" interior="0" model="2639" posX="2327.984375" posY="73.635787963867" posZ="15.738649368286" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_PIZZA_TABLE2) (5)" dimension="0" interior="0" model="2637" posX="2327.9885253906" posY="74.768783569336" posZ="15.515730857849" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_PIZZA_CHAIR2) (3)" dimension="0" interior="0" model="2638" posX="2327.9868164063" posY="76.353034973145" posZ="15.771235466003" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_PIZZA_TABLE2) (6)" dimension="0" interior="0" model="2637" posX="2327.9885253906" posY="78.068725585938" posZ="15.515730857849" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_PIZZA_CHAIR3) (4)" dimension="0" interior="0" model="2639" posX="2327.984375" posY="79.310844421387" posZ="15.738649368286" rotX="0" rotY="0" rotZ="180.58502197266" />
+    <object id="object (CJ_FF_CONTER_5e) (1)" dimension="0" interior="0" model="2449" posX="2323.916015625" posY="81.404747009277" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_FF_CONTER_5) (1)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="80.40576171875" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_FF_CONTER_5) (2)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="79.405792236328" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_FF_CONTER_5) (3)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="78.405731201172" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_FF_CONTER_5) (4)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="77.405670166016" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_FF_CONTER_5) (5)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="76.405670166016" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_FF_CONTER_5) (6)" dimension="0" interior="0" model="2446" posX="2323.8798828125" posY="75.405670166016" posZ="15.110990524292" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (Gen_doorSHOP3) (1)" dimension="0" interior="0" model="1522" posX="2331.4194335938" posY="74.266555786133" posZ="14.370975494385" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (CJ_K_COOKER1) (1)" dimension="0" interior="0" model="2294" posX="2320.3288574219" posY="82.851448059082" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_K_COOKER1) (2)" dimension="0" interior="0" model="2294" posX="2319.3269042969" posY="82.851448059082" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_K1_SINK) (1)" dimension="0" interior="0" model="2130" posX="2321.89453125" posY="82.836479187012" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_K1_SINK) (2)" dimension="0" interior="0" model="2130" posX="2320.3696289063" posY="74.63646697998" posZ="15.110990524292" rotX="0" rotY="0" rotZ="179.65002441406" />
+    <object id="object (CJ_K1_FRIDGE_UNIT) (1)" dimension="0" interior="0" model="2127" posX="2319.3432617188" posY="79.814506530762" posZ="15.118288040161" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_KITCH2_M) (1)" dimension="0" interior="0" model="2134" posX="2319.3503417969" posY="76.54517364502" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_KITCH2_M) (2)" dimension="0" interior="0" model="2134" posX="2320.3464355469" posY="76.54517364502" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_KITCH2_M) (3)" dimension="0" interior="0" model="2134" posX="2321.3425292969" posY="76.54517364502" posZ="15.110990524292" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (CJ_KITCH2_R) (1)" dimension="0" interior="0" model="2133" posX="2319.3745117188" posY="77.559013366699" posZ="15.118288040161" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_KITCH2_R) (2)" dimension="0" interior="0" model="2133" posX="2320.3706054688" posY="77.559013366699" posZ="15.118288040161" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (CJ_KITCH2_R) (3)" dimension="0" interior="0" model="2133" posX="2321.3666992188" posY="77.559013366699" posZ="15.118288040161" rotX="0" rotY="0" rotZ="180" />
+    <object id="object (int_sex01) (1)" dimension="0" interior="0" model="14672" posX="2323.5029296875" posY="-49.037662506104" posZ="20.476486206055" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_SPORTS_WALL) (1)" dimension="0" interior="0" model="2395" posX="2332.5290527344" posY="-40.261962890625" posZ="18.476486206055" rotX="0" rotY="0" rotZ="269.92486572266" />
+    <object id="object (cr_door_01) (1)" dimension="0" interior="0" model="2947" posX="2332.5454101563" posY="-49.160839080811" posZ="18.484382629395" rotX="0" rotY="0" rotZ="179.31500244141" />
+    <object id="object (cr_door_01) (2)" dimension="0" interior="0" model="2947" posX="2328.8288574219" posY="-49.683521270752" posZ="18.473762512207" rotX="0" rotY="0" rotZ="89.999938964844" />
+    <object id="object (CJ_SPORTS_WALL) (2)" dimension="0" interior="0" model="2395" posX="2332.5290527344" posY="-46.611938476563" posZ="18.476486206055" rotX="0" rotY="0" rotZ="269.92486572266" />
+    <object id="object (CJ_SPORTS_WALL) (3)" dimension="0" interior="0" model="2395" posX="2335.8288574219" posY="-46.41194152832" posZ="18.476486206055" rotX="0" rotY="0" rotZ="173.87933349609" />
+    <object id="object (CJ_SPORTS_WALL) (4)" dimension="0" interior="0" model="2395" posX="2332.5788574219" posY="-46.636940002441" posZ="21.276481628418" rotX="272.65997314453" rotY="0" rotZ="269.92486572266" />
+    <object id="object (cr_door_01) (4)" dimension="0" interior="0" model="2947" posX="2321.6047363281" posY="-49.683521270752" posZ="18.473762512207" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (cr_door_01) (5)" dimension="0" interior="0" model="2947" posX="2330.0300292969" posY="-39.883518218994" posZ="18.473762512207" rotX="0" rotY="0" rotZ="270.10998535156" />
+    <object id="object (cr_door_01) (6)" dimension="0" interior="0" model="2947" posX="2322.2800292969" posY="-39.883518218994" posZ="18.473762512207" rotX="0" rotY="0" rotZ="270.10998535156" />
+    <object id="object (Whhouse_main) (1)" dimension="0" interior="0" model="14815" posX="2276.4653320313" posY="73.63404083252" posZ="21.217098236084" rotX="0" rotY="0" rotZ="359.861328125" />
+    <object id="object (kmb_petroldoor) (1)" dimension="0" interior="0" model="2911" posX="2284.1071777344" posY="71.812812805176" posZ="19.435848236084" rotX="0" rotY="0" rotZ="90.119934082031" />
+    <object id="object (CJ_SPORTS_WALL) (5)" dimension="0" interior="0" model="2395" posX="2284.1806640625" posY="74.025650024414" posZ="22.493223190308" rotX="0.05999755859375" rotY="89.72998046875" rotZ="269.92486572266" />
+    <object id="object (kmb_petroldoor) (2)" dimension="0" interior="0" model="2911" posX="2275.7814941406" posY="63.31275177002" posZ="19.435848236084" rotX="0" rotY="0" rotZ="0.38998413085938" />
+    <object id="object (kmb_petroldoor) (3)" dimension="0" interior="0" model="2911" posX="2262.3559570313" posY="82.790184020996" posZ="19.461277008057" rotX="0" rotY="0" rotZ="90.119934082031" />
+    <object id="object (kmb_petroldoor) (4)" dimension="0" interior="0" model="2911" posX="2268.7229003906" posY="83.451690673828" posZ="19.435848236084" rotX="0" rotY="1.9848937988281" rotZ="0.34490966796875" />
+    <object id="object (kmb_petroldoor) (5)" dimension="0" interior="0" model="2911" posX="2276.1452636719" posY="82.751647949219" posZ="19.435848236084" rotX="0" rotY="1.9848937988281" rotZ="0.34490966796875" />
+    <object id="object (CJ_SPORTS_WALL) (6)" dimension="0" interior="0" model="2395" posX="2284.1806640625" posY="76.775604248047" posZ="22.493223190308" rotX="0.05999755859375" rotY="89.72998046875" rotZ="269.92486572266" />
+    <object id="object (CJ_SPORTS_WALL) (7)" dimension="0" interior="0" model="2395" posX="2284.1806640625" posY="79.500648498535" posZ="22.493223190308" rotX="0.05999755859375" rotY="89.72998046875" rotZ="269.92486572266" />
+    <object id="object (CJ_SPORTS_WALL) (8)" dimension="0" interior="0" model="2395" posX="2284.1806640625" posY="82.200660705566" posZ="22.493223190308" rotX="0.05999755859375" rotY="89.72998046875" rotZ="269.92486572266" />
+    <object id="object (CJ_SPORTS_WALL) (9)" dimension="0" interior="0" model="2395" posX="2284.1806640625" posY="84.875625610352" posZ="22.493223190308" rotX="0.05999755859375" rotY="89.72998046875" rotZ="269.92486572266" />
+    <object id="object (GAP) (1)" dimension="0" interior="0" model="18030" posX="2318.5974121094" posY="51.448379516602" posZ="10.416603088379" rotX="0" rotY="0" rotZ="270" />
+    <object id="object (CJ_SPORTS_WALL) (10)" dimension="0" interior="0" model="2395" posX="2315.5278320313" posY="34.926429748535" posZ="10.567427635193" rotX="0" rotY="89.999938964844" rotZ="180.13989257813" />
+    <object id="object (imy_la_door) (1)" dimension="0" interior="0" model="3109" posX="2304.7019042969" posY="55.767024993896" posZ="9.2963991165161" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_CRATE_1) (1)" dimension="0" interior="0" model="1448" posX="2312.0754394531" posY="35.993320465088" posZ="8.8550176620483" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (kmb_paper_code) (1)" dimension="0" interior="0" model="2953" posX="2313.203125" posY="57.802520751953" posZ="8.0531463623047" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_BOXES) (1)" dimension="0" interior="0" model="1421" posX="2314.9963378906" posY="53.150531768799" posZ="8.8119812011719" rotX="0" rotY="0" rotZ="87.654968261719" />
+    <object id="object (DYN_F_WOOD_3) (1)" dimension="0" interior="0" model="1418" posX="2315.2209472656" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (1)" dimension="0" interior="0" model="1446" posX="2315.236328125" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_2) (1)" dimension="0" interior="0" model="1456" posX="2323.3322753906" posY="43.874195098877" posZ="10.398309707642" rotX="0" rotY="89.999969482422" rotZ="89.999969482422" />
+    <object id="object (DYN_F_R_WOOD_3) (1)" dimension="0" interior="0" model="1460" posX="2323.3864746094" posY="45.614528656006" posZ="10.360610961914" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_WOOD_3) (2)" dimension="0" interior="0" model="1418" posX="2316.7707519531" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (3)" dimension="0" interior="0" model="1418" posX="2318.3205566406" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (4)" dimension="0" interior="0" model="1418" posX="2319.8684082031" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (5)" dimension="0" interior="0" model="1418" posX="2321.3942871094" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (6)" dimension="0" interior="0" model="1418" posX="2322.9431152344" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (7)" dimension="0" interior="0" model="1418" posX="2322.3205566406" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (8)" dimension="0" interior="0" model="1418" posX="2320.7697753906" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (9)" dimension="0" interior="0" model="1418" posX="2319.2458496094" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (10)" dimension="0" interior="0" model="1418" posX="2317.6970214844" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (11)" dimension="0" interior="0" model="1418" posX="2316.1730957031" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (12)" dimension="0" interior="0" model="1418" posX="2314.6472167969" posY="54.489353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (2)" dimension="0" interior="0" model="1446" posX="2317.0859375" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (3)" dimension="0" interior="0" model="1446" posX="2318.8330078125" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (4)" dimension="0" interior="0" model="1446" posX="2320.5581054688" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (5)" dimension="0" interior="0" model="1446" posX="2322.4077148438" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (6)" dimension="0" interior="0" model="1446" posX="2322.4077148438" posY="66.240829467773" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (7)" dimension="0" interior="0" model="1446" posX="2320.6098632813" posY="66.240829467773" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (8)" dimension="0" interior="0" model="1446" posX="2318.8608398438" posY="66.240829467773" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (9)" dimension="0" interior="0" model="1446" posX="2316.9873046875" posY="66.240829467773" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (10)" dimension="0" interior="0" model="1446" posX="2315.2114257813" posY="66.240829467773" posZ="10.306104660034" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (13)" dimension="0" interior="0" model="1418" posX="2324.3454589844" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (14)" dimension="0" interior="0" model="1418" posX="2326.0427246094" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (15)" dimension="0" interior="0" model="1418" posX="2327.6911621094" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (16)" dimension="0" interior="0" model="1418" posX="2329.3625488281" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (17)" dimension="0" interior="0" model="1418" posX="2331.0368652344" posY="58.239353179932" posZ="9.8264751434326" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_3) (2)" dimension="0" interior="0" model="1460" posX="2323.3864746094" posY="42.139453887939" posZ="10.360610961914" rotX="0" rotY="89.999969482422" rotZ="89.999969482422" />
+    <object id="object (DYN_F_R_WOOD_3) (3)" dimension="0" interior="0" model="1460" posX="2323.3864746094" posY="40.439441680908" posZ="10.360610961914" rotX="0" rotY="270" rotZ="89.999938964844" />
+    <object id="object (DYN_F_R_WOOD_4) (12)" dimension="0" interior="0" model="1446" posX="2324.6318359375" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (13)" dimension="0" interior="0" model="1446" posX="2326.384765625" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (14)" dimension="0" interior="0" model="1446" posX="2328.185546875" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (15)" dimension="0" interior="0" model="1446" posX="2329.984375" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (16)" dimension="0" interior="0" model="1446" posX="2331.78515625" posY="46.555763244629" posZ="10.306104660034" rotX="0" rotY="89.999969482422" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (17)" dimension="0" interior="0" model="1446" posX="2323.4096679688" posY="47.790771484375" posZ="10.406103134155" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_R_WOOD_4) (18)" dimension="0" interior="0" model="1446" posX="2323.4096679688" posY="49.615760803223" posZ="10.406103134155" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_R_WOOD_4) (19)" dimension="0" interior="0" model="1446" posX="2323.4096679688" posY="51.415840148926" posZ="10.406103134155" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_R_WOOD_4) (20)" dimension="0" interior="0" model="1446" posX="2323.4096679688" posY="53.215843200684" posZ="10.406103134155" rotX="0" rotY="89.999938964844" rotZ="89.999969482422" />
+    <object id="object (DYN_F_WOOD_3) (18)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="67.314338684082" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_WOOD_3) (19)" dimension="0" interior="0" model="1418" posX="2330.1345214844" posY="58.239200592041" posZ="12.276472091675" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (20)" dimension="0" interior="0" model="1418" posX="2326.6164550781" posY="58.239200592041" posZ="12.276472091675" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (21)" dimension="0" interior="0" model="1418" posX="2321.3713378906" posY="58.239200592041" posZ="12.276472091675" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (22)" dimension="0" interior="0" model="1418" posX="2317.8684082031" posY="58.239200592041" posZ="12.276472091675" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_F_WOOD_3) (23)" dimension="0" interior="0" model="1418" posX="2314.3435058594" posY="58.239200592041" posZ="12.276472091675" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (DYN_F_R_WOOD_4) (21)" dimension="0" interior="0" model="1446" posX="2314.1596679688" posY="51.915870666504" posZ="8.831127166748" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (DYN_F_R_WOOD_4) (22)" dimension="0" interior="0" model="1446" posX="2314.1596679688" posY="47.290908813477" posZ="8.831127166748" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (DYN_F_R_WOOD_4) (23)" dimension="0" interior="0" model="1446" posX="2314.1596679688" posY="47.290908813477" posZ="10.706098556519" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (DYN_F_R_WOOD_4) (24)" dimension="0" interior="0" model="1446" posX="2314.1596679688" posY="51.890914916992" posZ="10.706098556519" rotX="0" rotY="0" rotZ="89.999969482422" />
+    <object id="object (DYN_BOXES) (2)" dimension="0" interior="0" model="1421" posX="2315.3190917969" posY="51.700519561768" posZ="8.8119812011719" rotX="0" rotY="0" rotZ="181.65997314453" />
+    <object id="object (DYN_BOXES) (3)" dimension="0" interior="0" model="1421" posX="2314.8708496094" posY="50.225536346436" posZ="8.8119812011719" rotX="0" rotY="0" rotZ="269.35992431641" />
+    <object id="object (DYN_BOXES) (4)" dimension="0" interior="0" model="1421" posX="2314.8708496094" posY="50.225536346436" posZ="8.8119812011719" rotX="0" rotY="0" rotZ="269.35992431641" />
+    <object id="object (DYN_F_WOOD_3) (24)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="69.014320373535" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_WOOD_3) (25)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="70.839309692383" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_F_WOOD_3) (26)" dimension="0" interior="0" model="1418" posX="2323.6481933594" posY="72.614280700684" posZ="9.8264751434326" rotX="0" rotY="89.999938964844" rotZ="89.999938964844" />
+    <object id="object (DYN_CRATE_1) (3)" dimension="0" interior="0" model="1448" posX="2312.0734863281" posY="37.043292999268" posZ="8.8550176620483" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_CRATE_1) (4)" dimension="0" interior="0" model="1448" posX="2312.0715332031" posY="37.043292999268" posZ="10.029999732971" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="object (DYN_CRATE_1) (5)" dimension="0" interior="0" model="1448" posX="2312.0573730469" posY="35.993228912354" posZ="10.029999732971" rotX="0" rotY="89.999938964844" rotZ="0" />
+    <object id="zombiewood" dimension="0" interior="0" model="3260" posX="2408.658203125" posY="87.528442382813" posZ="25.19815826416" rotX="354.54504394531" rotY="357.25" rotZ="269.37994384766" />
+    <object id="object (DYN_CRATE_1) (6)" dimension="0" interior="0" model="1448" posX="2212.6154785156" posY="129.12561035156" posZ="28.946420669556" rotX="0.22494506835938" rotY="89.999938964844" rotZ="354.04504394531" />
+    <object id="object (DYN_CRATE_1) (7)" dimension="0" interior="0" model="1448" posX="2212.6901855469" posY="129.9006652832" posZ="29.821418762207" rotX="45.879974365234" rotY="89.999938964844" rotZ="354.04504394531" />
+    <object id="object (DYN_CRATE_1) (8)" dimension="0" interior="0" model="1448" posX="2212.4909667969" posY="129.9006652832" posZ="28.921417236328" rotX="99.474945068359" rotY="89.999938964844" rotZ="354.04504394531" />
+    <object id="object (DYN_OUTHOUSE_2) (3)" dimension="0" interior="0" model="1457" posX="2351.4731445313" posY="-123.7887802124" posZ="27.693269729614" rotX="0" rotY="0" rotZ="139.57995605469" />
+    <pickup id="pickup (Chainsaw) (1)" dimension="0" interior="0" posX="2351.1462402344" posY="-123.84383392334" posZ="27.260606765747" rotX="false" rotY="nil" rotZ="nil" type="9" />
+    <object id="object (oldwoodpanel) (4)" dimension="0" interior="0" model="3260" posX="2418.1879882813" posY="98.32844543457" posZ="25.19815826416" rotX="4.5150146484375" rotY="337.30999755859" rotZ="88.839874267578" />
+    <object id="object (DYN_woodpile) (1)" dimension="0" interior="0" model="1462" posX="2409.4221191406" posY="88.798370361328" posZ="25.520359039307" rotX="0" rotY="0" rotZ="87.339965820313" />
+    <object id="object (DYN_woodpile) (2)" dimension="0" interior="0" model="1462" posX="2416.7687988281" posY="98.706817626953" posZ="25.520359039307" rotX="0" rotY="0" rotZ="0.57992553710938" />
+    <object id="object (DYN_woodpile) (3)" dimension="0" interior="0" model="1462" posX="2359.5297851563" posY="-106.60894775391" posZ="27.467241287231" rotX="0" rotY="0" rotZ="310.22998046875" />
+    <object id="object (DYN_woodpile) (4)" dimension="0" interior="0" model="1462" posX="2349.755859375" posY="-108.80895996094" posZ="27.467241287231" rotX="0" rotY="0" rotZ="130.37976074219" />
+    <object id="object (DYN_woodpile) (5)" dimension="0" interior="0" model="1462" posX="2305.7751464844" posY="-17.247695922852" posZ="25.749565124512" rotX="0" rotY="0" rotZ="180.009765625" />
+    <object id="object (DYN_woodpile) (6)" dimension="0" interior="0" model="1462" posX="2313.5544433594" posY="-0.13340535759926" posZ="25.7421875" rotX="357.5" rotY="358.5" rotZ="356.21978759766" />
+    <object id="object (DYN_woodpile) (7)" dimension="0" interior="0" model="1462" posX="2548.1198730469" posY="119.82211303711" posZ="25.560510635376" rotX="0" rotY="0" rotZ="266.77001953125" />
+    <object id="object (DYN_CRATE_3) (1)" dimension="0" interior="0" model="1450" posX="2211.7631835938" posY="131.45657348633" posZ="28.911066055298" rotX="0" rotY="0" rotZ="272.79998779297" />
+    <object id="object (DYN_woodpile) (8)" dimension="0" interior="0" model="1462" posX="2323.2951660156" posY="5.4994401931763" posZ="25.564159393311" rotX="357.5" rotY="358.5" rotZ="85.904693603516" />
+    <object id="object (DYN_woodpile) (9)" dimension="0" interior="0" model="1462" posX="2332.3459472656" posY="8.6244344711304" posZ="25.564159393311" rotX="357.5" rotY="358.5" rotZ="355.13977050781" />
+    <object id="object (SWANK_BED_5) (1)" dimension="0" interior="0" model="2090" posX="2267.4260253906" posY="79.904167175293" posZ="19.57098197937" rotX="0" rotY="0" rotZ="179.46002197266" />
+    <object id="object (CJ_TOILET1) (1)" dimension="0" interior="0" model="2514" posX="2267.6794433594" posY="62.971683502197" posZ="19.443227767944" rotX="0" rotY="0" rotZ="268.16497802734" />
+    <object id="object (CJ_B_SINK1) (1)" dimension="0" interior="0" model="2739" posX="2267.6953125" posY="64.981803894043" posZ="19.443227767944" rotX="0" rotY="0" rotZ="269.71496582031" />
+    <object id="object (Hotel_dresser_3) (1)" dimension="0" interior="0" model="2568" posX="2265.0451660156" posY="84.465179443359" posZ="19.435317993164" rotX="0" rotY="0" rotZ="359.5" />
+    <object id="object (Hotel_dresser_8) (1)" dimension="0" interior="0" model="2576" posX="2272.0983886719" posY="72.047271728516" posZ="19.435848236084" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (HOTEL_S_BEDSET_3) (1)" dimension="0" interior="0" model="2566" posX="2273.3168945313" posY="67.06095123291" posZ="20.01566696167" rotX="0" rotY="0" rotZ="180.61999511719" />
+    <object id="object (Hotel_SINGLE_1) (1)" dimension="0" interior="0" model="2571" posX="2280.5798339844" posY="66.743865966797" posZ="19.435848236084" rotX="0" rotY="0" rotZ="88.559783935547" />
+    <object id="object (SWK_COUCH_1) (1)" dimension="0" interior="0" model="2290" posX="2283.9052734375" posY="68.789428710938" posZ="19.443227767944" rotX="0" rotY="0" rotZ="269.19006347656" />
+    <object id="object (Hotel_dresser_3) (2)" dimension="0" interior="0" model="2568" posX="2269.1040039063" posY="69.275489807129" posZ="19.435848236084" rotX="0" rotY="0" rotZ="89.894989013672" />
+    <object id="object (CJ_Stags_head) (1)" dimension="0" interior="0" model="1736" posX="2359.3388671875" posY="-113.60547637939" posZ="29.731155395508" rotX="0" rotY="0" rotZ="222.45001220703" />
+    <object id="object (CJ_EASYCHAIR1) (1)" dimension="0" interior="0" model="1735" posX="2356.2299804688" posY="-114.80330657959" posZ="27.467241287231" rotX="0" rotY="0" rotZ="149.54995727539" />
+    <object id="object (LM_stripTable) (1)" dimension="0" interior="0" model="2725" posX="2355.2919921875" posY="-114.55532836914" posZ="27.900428771973" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (WORK_LAMP1) (1)" dimension="0" interior="0" model="2196" posX="2355.5737304688" posY="-114.27741241455" posZ="28.342227935791" rotX="0" rotY="0" rotZ="0" />
+    <object id="object (bd_window_shatter) (1)" dimension="0" interior="0" model="3032" posX="2350.4262695313" posY="-100.60795593262" posZ="29.429452896118" rotX="0" rotY="0" rotZ="41.404998779297" />
+    <object id="object (bd_window_shatter) (2)" dimension="0" interior="0" model="3032" posX="2348.1821289063" posY="-102.48290252686" posZ="29.429452896118" rotX="0" rotY="0" rotZ="41.404998779297" />
+    <object id="object (bd_window_shatter) (3)" dimension="0" interior="0" model="3032" posX="2361.255859375" posY="-112.53284454346" posZ="29.429452896118" rotX="0" rotY="0" rotZ="41.404998779297" />
+    <object id="object (bd_window_shatter) (4)" dimension="0" interior="0" model="3032" posX="2358.7817382813" posY="-114.85780334473" posZ="29.429452896118" rotX="0" rotY="0" rotZ="41.404998779297" />
+    <object id="object (bd_window_shatter) (5)" dimension="0" interior="0" model="3032" posX="2354.6323242188" posY="-115.33283233643" posZ="29.429452896118" rotX="0" rotY="0" rotZ="312.13000488281" />
+    <object id="object (bd_window_shatter) (6)" dimension="0" interior="0" model="3032" posX="2355.10546875" posY="-101.23285675049" posZ="29.429452896118" rotX="0" rotY="0" rotZ="312.13000488281" />
+    <object id="object (bd_window_shatter) (7)" dimension="0" interior="0" model="3032" posX="2361.9282226563" posY="-108.71279144287" posZ="29.429452896118" rotX="0" rotY="0" rotZ="312.13000488281" />
+    <object id="object (CJ_Radiator_old) (1)" dimension="0" interior="0" model="1738" posX="2359.8464355469" posY="-113.37254333496" posZ="28.121871948242" rotX="0" rotY="0" rotZ="39.700012207031" />
+    <object id="object (Gs_BOOKCASE) (1)" dimension="0" interior="0" model="14455" posX="2350.3325195313" posY="-109.97319030762" posZ="29.139001846313" rotX="0" rotY="0" rotZ="311.625" />
+    <object id="object (CJ_KITCH1_R) (1)" dimension="0" interior="0" model="2335" posX="2350.5490722656" posY="-104.18491363525" posZ="26.992584228516" rotX="0" rotY="90.825012207031" rotZ="39.700012207031" />
+    <object id="object (gb_livingrug04) (1)" dimension="0" interior="0" model="2835" posX="2356.5207519531" posY="-113.24631500244" posZ="27.467241287231" rotX="0" rotY="0" rotZ="0" />
+
+
+	<Zombie_spawn posX="2571.6555175781" posY="103.410690307620" posZ="26.372093200684" rotZ="89.72998046875" />
+    <Zombie_spawn posX="2560.1787109375" posY="71.4504928588870" posZ="26.476562500000" rotZ="89.730010986328" />
+    <Zombie_spawn posX="2567.2438964844" posY="57.0687828063960" posZ="26.976562500000" rotZ="107.5950012207" />
+    <Zombie_spawn posX="2565.5034179688" posY="20.4473171234130" posZ="27.037527084351" rotZ="119.64001464844" />
+    <Zombie_spawn posX="2567.5966796875" posY="-5.5178866386414" posZ="26.976562500000" rotZ="59.820007324219" />
+    <Zombie_spawn posX="2531.6186523438" posY="-28.911670684814" posZ="27.811203002930" rotZ="0" />
+    <Zombie_spawn posX="2494.8964843750" posY="-35.825325012207" posZ="27.564765930176" rotZ="340.05999755859" />
+    <Zombie_spawn posX="2475.0769042969" posY="-49.512882232666" posZ="26.601146697998" rotZ="39.880004882813" />
+    <Zombie_spawn posX="2448.9172363281" posY="-73.234802246094" posZ="27.476562500000" rotZ="19.940002441406" />
+    <Zombie_spawn posX="2417.4262695313" posY="-69.046424865723" posZ="27.476562500000" rotZ="334.10501098633" />
+    <Zombie_spawn posX="2402.8105468750" posY="-60.802013397217" posZ="27.476562500000" rotZ="0" />
+    <Zombie_spawn posX="2377.7514648438" posY="-56.538486480713" posZ="27.468750000000" rotZ="0" />
+    <Zombie_spawn posX="2355.1750488281" posY="-76.712661743164" posZ="26.492712020874" rotZ="59.820007324219" />
+    <Zombie_spawn posX="2332.6391601563" posY="-136.36381530762" posZ="27.483806610107" rotZ="0" />
+    <Zombie_spawn posX="2307.7851562500" posY="-144.52996826172" posZ="27.476562500000" rotZ="13.894989013672" />
+    <Zombie_spawn posX="2282.9377441406" posY="-127.29908752441" posZ="27.468750000000" rotZ="0" />
+    <Zombie_spawn posX="2258.0837402344" posY="-138.58587646484" posZ="27.476562500000" rotZ="29.910003662109" />
+    <Zombie_spawn posX="2184.5983886719" posY="-91.983886718750" posZ="27.476562500000" rotZ="310.14999389648" />
+    <Zombie_spawn posX="2193.8691406250" posY="-55.213172912598" posZ="27.464797973633" rotZ="240.35998535156" />
+    <Zombie_spawn posX="2188.2336425781" posY="-74.662635803223" posZ="27.476562500000" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2181.3232421875" posY="-28.464750289917" posZ="27.476562500000" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2210.2905273438" posY="3.40280914306640" posZ="25.082710266113" rotZ="230.39001464844" />
+    <Zombie_spawn posX="2226.9494628906" posY="5.35556030273440" posZ="26.083887100220" rotZ="179.46002197266" />
+    <Zombie_spawn posX="2238.2487792969" posY="20.6847305297850" posZ="26.473423004150" rotZ="330.08999633789" />
+    <Zombie_spawn posX="2204.2084960938" posY="28.7201232910160" posZ="24.720518112183" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2182.7287597656" posY="52.7181320190430" posZ="26.484375000000" rotZ="230.39001464844" />
+    <Zombie_spawn posX="2182.7917480469" posY="75.2414093017580" posZ="26.484375000000" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2183.2858886719" posY="92.2241744995120" posZ="25.993427276611" rotZ="230.39001464844" />
+    <Zombie_spawn posX="2183.1696777344" posY="115.876922607420" posZ="26.386440277100" rotZ="290.21002197266" />
+    <Zombie_spawn posX="2239.2602539063" posY="178.080490112300" posZ="27.483806610107" rotZ="191.46002197266" />
+    <Zombie_spawn posX="2247.6171875000" posY="177.615066528320" posZ="27.483806610107" rotZ="169.48999023438" />
+    <Zombie_spawn posX="2270.1791992188" posY="177.648254394530" posZ="27.476562500000" rotZ="189.42999267578" />
+    <Zombie_spawn posX="2296.1186523438" posY="183.005081176760" posZ="26.282165527344" rotZ="189.42999267578" />
+    <Zombie_spawn posX="2315.3488769531" posY="206.542709350590" posZ="25.772949218750" rotZ="250.33001708984" />
+    <Zombie_spawn posX="2379.3903808594" posY="222.384948730470" posZ="22.012720108032" rotZ="139.57995605469" />
+    <Zombie_spawn posX="2370.6428222656" posY="200.815338134770" posZ="27.353000640869" rotZ="119.64001464844" />
+    <Zombie_spawn posX="2387.0324707031" posY="139.320327758790" posZ="26.476390838623" rotZ="240.36001586914" />
+    <Zombie_spawn posX="2387.2729492188" posY="187.432022094730" posZ="26.617893218994" rotZ="290.21002197266" />
+    <Zombie_spawn posX="2363.5637207031" posY="166.123703002930" posZ="28.441644668579" rotZ="89.72998046875" />
+    <Zombie_spawn posX="2367.5673828125" posY="147.255493164060" posZ="27.843750000000" rotZ="119.63998413086" />
+    <Zombie_spawn posX="2367.4001464844" posY="144.944778442380" posZ="27.843750000000" rotZ="49.850006103516" />
+    <Zombie_spawn posX="2371.8022460938" posY="131.694961547850" posZ="27.577934265137" rotZ="119.64001464844" />
+    <Zombie_spawn posX="2388.3237304688" posY="119.358695983890" posZ="27.620231628418" rotZ="149.54998779297" />
+    <Zombie_spawn posX="2363.3374023438" posY="117.528877258300" posZ="28.441644668579" rotZ="119.63998413086" />
+    <Zombie_spawn posX="2453.8933105469" posY="144.721374511720" posZ="26.976562500000" rotZ="159.52001953125" />
+    <Zombie_spawn posX="2464.4252929688" posY="139.791809082030" posZ="26.660890579224" rotZ="190.50999450684" />
+    <Zombie_spawn posX="2479.1386718750" posY="135.970031738280" posZ="26.976562500000" rotZ="159.52001953125" />
+    <Zombie_spawn posX="2503.2126464844" posY="137.993515014650" posZ="26.476562500000" rotZ="189.42999267578" />
+    <Zombie_spawn posX="2512.6389160156" posY="137.482330322270" posZ="26.976562500000" rotZ="129.60998535156" />
+    <Zombie_spawn posX="2525.2124023438" posY="141.504318237300" posZ="26.484375000000" rotZ="189.42999267578" />
+    <Zombie_spawn posX="2508.2329101563" posY="11.0138263702390" posZ="28.441644668579" rotZ="210.45001220703" />
+    <Zombie_spawn posX="2478.8459472656" posY="19.7531681060790" posZ="27.674251556396" rotZ="131.59497070313" />
+    <Zombie_spawn posX="2509.9077148438" posY="56.0926818847660" posZ="26.984375000000" rotZ="250.33001708984" />
+    <Zombie_spawn posX="2505.6728515625" posY="64.3258590698240" posZ="27.035076141357" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2518.2854003906" posY="78.1613235473630" posZ="26.984375000000" rotZ="320.11999511719" />
+    <Zombie_spawn posX="2514.3520507813" posY="94.4735870361330" posZ="27.683460235596" rotZ="320.11999511719" />
+    <Zombie_spawn posX="2507.3374023438" posY="86.8690948486330" posZ="26.575706481934" rotZ="0" />
+    <Zombie_spawn posX="2495.5310058594" posY="86.2295761108400" posZ="26.484375000000" rotZ="19.940002441406" />
+    <Zombie_spawn posX="2483.1906738281" posY="94.6947479248050" posZ="27.683458328247" rotZ="59.820007324219" />
+    <Zombie_spawn posX="2490.3879394531" posY="75.3333358764650" posZ="26.484375000000" rotZ="89.730010986328" />
+    <Zombie_spawn posX="2490.3901367188" posY="58.5203285217290" posZ="26.984375000000" rotZ="133.58001708984" />
+    <Zombie_spawn posX="2433.6157226563" posY="68.9631958007810" posZ="27.662376403809" rotZ="129.60998535156" />
+    <Zombie_spawn posX="2407.2700195313" posY="69.1747589111330" posZ="28.041643142700" rotZ="149.54998779297" />
+    <Zombie_spawn posX="2444.3925781250" posY="90.9242782592770" posZ="28.441644668579" rotZ="310.14999389648" />
+    <Zombie_spawn posX="2448.9592285156" posY="101.734252929690" posZ="27.099575042725" rotZ="330.08999633789" />
+    <Zombie_spawn posX="2408.4162597656" posY="65.5980300903320" posZ="27.843750000000" rotZ="199.40002441406" />
+    <Zombie_spawn posX="2410.3041992188" posY="65.1547775268550" posZ="27.843750000000" rotZ="139.57998657227" />
+    <Zombie_spawn posX="2436.0607910156" posY="8.04005718231200" posZ="26.484375000000" rotZ="270.26998901367" />
+    <Zombie_spawn posX="2445.3071289063" posY="17.4775047302250" posZ="26.984375000000" rotZ="230.39001464844" />
+    <Zombie_spawn posX="2432.4648437500" posY="-2.6615264415741" posZ="26.484375000000" rotZ="169.48999023438" />
+    <Zombie_spawn posX="2434.3649902344" posY="-2.8487348556519" posZ="26.484375000000" rotZ="209.36999511719" />
+    <Zombie_spawn posX="2413.6970214844" posY="-4.4510049819946" posZ="26.984375000000" rotZ="59.820007324219" />
+    <Zombie_spawn posX="2420.8400878906" posY="5.28029346466060" posZ="26.484375000000" rotZ="109.66998291016" />
+    <Zombie_spawn posX="2419.3515625000" posY="14.7938451766970" posZ="26.554141998291" rotZ="95.684997558594" />
+    <Zombie_spawn posX="2410.9848632813" posY="22.5582771301270" posZ="27.683460235596" rotZ="29.910003662109" />
+    <Zombie_spawn posX="2427.2944335938" posY="26.0980796813960" posZ="26.984375000000" rotZ="61.850006103516" />
+    <Zombie_spawn posX="2430.7661132813" posY="23.8436164855960" posZ="26.984375000000" rotZ="300.13500976563" />
+    <Zombie_spawn posX="2371.6486816406" posY="-13.530526161194" posZ="27.843750000000" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2370.7639160156" posY="-12.447120666504" posZ="27.843750000000" rotZ="240.35998535156" />
+    <Zombie_spawn posX="2370.9042968750" posY="2.91533565521240" posZ="27.541643142700" rotZ="300.17999267578" />
+    <Zombie_spawn posX="2369.6406250000" posY="29.5202636718750" posZ="28.041643142700" rotZ="290.21002197266" />
+    <Zombie_spawn posX="2370.0100097656" posY="58.0519638061520" posZ="27.343750000000" rotZ="270.26998901367" />
+    <Zombie_spawn posX="2364.3146972656" posY="-58.393184661865" posZ="27.476562500000" rotZ="19.940002441406" />
+    <Zombie_spawn posX="2331.3300781250" posY="-77.244163513184" posZ="26.484375000000" rotZ="260.29998779297" />
+    <Zombie_spawn posX="2333.7736816406" posY="-57.543804168701" posZ="29.930292129517" rotZ="260.29998779297" />
+    <Zombie_spawn posX="2322.5822753906" posY="-55.996604919434" posZ="26.484375000000" rotZ="152.66000366211" />
+    <Zombie_spawn posX="2308.7834472656" posY="-77.084556579590" posZ="26.484375000000" rotZ="49.850006103516" />
+    <Zombie_spawn posX="2311.2070312500" posY="-54.317256927490" posZ="32.727706909180" rotZ="244.375" />
+    <Zombie_spawn posX="2314.0214843750" posY="-37.796943664551" posZ="26.484375000000" rotZ="0" />
+    <Zombie_spawn posX="2330.4750976563" posY="-48.661205291748" posZ="32.727706909180" rotZ="250.33001708984" />
+    <Zombie_spawn posX="2306.3325195313" posY="7.31342887878420" posZ="26.476568222046" rotZ="139.57998657227" />
+    <Zombie_spawn posX="2320.5134277344" posY="1.81220245361330" posZ="26.484375000000" rotZ="0" />
+    <Zombie_spawn posX="2326.6967773438" posY="11.9112319946290" posZ="26.484375000000" rotZ="89.730010986328" />
+    <Zombie_spawn posX="2323.1093750000" posY="31.5016975402830" posZ="26.484375000000" rotZ="129.60998535156" />
+    <Zombie_spawn posX="2315.7333984375" posY="34.4531898498540" posZ="27.473955154419" rotZ="200.48001098633" />
+    <Zombie_spawn posX="2329.8764648438" posY="39.4864349365230" posZ="27.431768417358" rotZ="260.30001831055" />
+    <Zombie_spawn posX="2321.7529296875" posY="43.5089111328130" posZ="26.711725234985" rotZ="29.910003662109" />
+    <Zombie_spawn posX="2314.9934082031" posY="53.2508468627930" posZ="26.481355667114" rotZ="320.11999511719" />
+    <Zombie_spawn posX="2326.4763183594" posY="59.8648071289060" posZ="26.484382629395" rotZ="47.774993896484" />
+    <Zombie_spawn posX="2307.0085449219" posY="69.7009277343750" posZ="26.484375000000" rotZ="79.760009765625" />
+    <Zombie_spawn posX="2326.9204101563" posY="80.8575439453130" posZ="30.641807556152" rotZ="0" />
+    <Zombie_spawn posX="2330.0268554688" posY="6.23637962341310" posZ="26.516487121582" rotZ="280.23999023438" />
+    <Zombie_spawn posX="2332.8703613281" posY="22.3629779815670" posZ="26.484375000000" rotZ="280.23999023438" />
+    <Zombie_spawn posX="2331.9733886719" posY="15.8305234909060" posZ="34.483432769775" rotZ="320.11999511719" />
+    <Zombie_spawn posX="2320.2387695313" posY="103.068992614750" posZ="27.349925994873" rotZ="250.33000183105" />
+    <Zombie_spawn posX="2320.8571777344" posY="132.841857910160" posZ="27.843750000000" rotZ="286.19500732422" />
+    <Zombie_spawn posX="2316.7016601563" posY="146.572174072270" posZ="27.593502044678" rotZ="310.15002441406" />
+    <Zombie_spawn posX="2318.4106445313" posY="177.948211669920" posZ="27.351202011108" rotZ="290.21002197266" />
+    <Zombie_spawn posX="2256.8330078125" posY="115.106491088870" posZ="28.041643142700" rotZ="169.48999023438" />
+    <Zombie_spawn posX="2235.5817871094" posY="116.383056640630" posZ="27.351110458374" rotZ="149.54998779297" />
+    <Zombie_spawn posX="2239.1301269531" posY="53.2310028076170" posZ="32.483432769775" rotZ="63.8349609375" />
+    <Zombie_spawn posX="2240.2934570313" posY="60.3358383178710" posZ="29.483432769775" rotZ="49.850006103516" />
+    <Zombie_spawn posX="2243.3632812500" posY="69.6530914306640" posZ="26.484375000000" rotZ="103.66998291016" />
+    <Zombie_spawn posX="2258.1284179688" posY="79.3402023315430" posZ="26.484375000000" rotZ="11.910003662109" />
+    <Zombie_spawn posX="2270.3603515625" posY="73.2297210693360" posZ="31.983432769775" rotZ="149.54998779297" />
+    <Zombie_spawn posX="2269.5622558594" posY="66.0994110107420" posZ="26.484375000000" rotZ="109.66998291016" />
+    <Zombie_spawn posX="2260.8413085938" posY="26.5969219207760" posZ="26.511539459229" rotZ="266.25500488281" />
+    <Zombie_spawn posX="2249.2360839844" posY="30.2165927886960" posZ="26.511539459229" rotZ="310.14999389648" />
+    <Zombie_spawn posX="2254.2902832031" posY="29.6147193908690" posZ="26.511539459229" rotZ="29.910003662109" />
+    <Zombie_spawn posX="2263.0815429688" posY="20.8181152343750" posZ="26.472610473633" rotZ="310.14999389648" />
+    <Zombie_spawn posX="2252.9152832031" posY="80.3006591796880" posZ="26.703674316406" rotZ="69.789978027344" />
+    <Zombie_spawn posX="2268.1269531250" posY="111.225914001460" posZ="28.441644668579" rotZ="200.48001098633" />
+    <Zombie_spawn posX="2270.7177734375" posY="-7.5352392196655" posZ="28.153547286987" rotZ="179.46002197266" />
+    <Zombie_spawn posX="2260.0244140625" posY="0.55206108093262" posZ="27.468750000000" rotZ="230.39001464844" />
+    <Zombie_spawn posX="2253.8835449219" posY="-2.4615125656128" posZ="28.153551101685" rotZ="189.42999267578" />
+    <Zombie_spawn posX="2248.0249023438" posY="-2.0220780372620" posZ="28.153551101685" rotZ="159.52001953125" />
+    <Zombie_spawn posX="2234.9724121094" posY="4.18704700469970" posZ="27.476562500000" rotZ="179.46002197266" />
+    <Zombie_spawn posX="2184.7563476563" posY="-36.903484344482" posZ="28.153957366943" rotZ="220.42001342773" />
+    <Zombie_spawn posX="2240.2233886719" posY="-84.002761840820" posZ="26.499900817871" rotZ="0" />
+    <Zombie_spawn posX="2260.0849609375" posY="-76.894645690918" posZ="24.585937500000" rotZ="129.60998535156" />
+    <Zombie_spawn posX="2269.7878417969" posY="-74.411872863770" posZ="26.772380828857" rotZ="169.48999023438" />
+    <Zombie_spawn posX="2272.1901855469" posY="-72.808090209961" posZ="27.294183731079" rotZ="320.11999511719" />
+    <Zombie_spawn posX="2264.9206542969" posY="-66.066093444824" posZ="26.783405303955" rotZ="280.23999023438" />
+    <Zombie_spawn posX="2249.4438476563" posY="-70.132705688477" posZ="26.783405303955" rotZ="0" />
+	
+	<maplimit>
+		<point x="2354.3046875" y="213.9716796875" />
+		<point x="2413.966796875" y="208.6279296875" />
+		<point x="2457.9189453125" y="157.3623046875" />
+		<point x="2557.5302734375" y="156.09765625" />
+		<point x="2583.1064453125" y="104.6181640625" />
+		<point x="2587.048828125" y="48.1826171875" />
+		<point x="2585.9794921875" y="2.345703125" />
+		<point x="2570.31640625" y="-27.927734375" />
+		<point x="2531.6943359375" y="-58.8505859375" />
+		<point x="2459.7275390625" y="-88.474609375" />
+		<point x="2338.1083984375" y="-155.580078125" />
+		<point x="2231.48828125" y="-163.4111328125" />
+		<point x="2162.3701171875" y="-146.7158203125" />
+		<point x="2121.083984375" y="-122.279296875" />
+		<point x="2097.5751953125" y="-107.1982421875" />
+		<point x="2109.71875" y="-61.9833984375" />
+		<point x="2141.9248046875" y="34.90234375" />
+		<point x="2157.9501953125" y="91.4951171875" />
+		<point x="2183.0810546875" y="144.533203125" />
+		<point x="2217.3046875" y="211.34765625" />
+		<point x="2238.0908203125" y=" 217.798828125" />
+		<point x="2337.0478515625" y="213.5556640625" />
+	</maplimit>
+</map>
+

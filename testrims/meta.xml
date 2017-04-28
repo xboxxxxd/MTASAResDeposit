@@ -1,0 +1,22 @@
+<meta>
+    <info author="Sherman" version="1" type="script" />
+    <script src="skins.lua" type="client" />
+        <file src="wheel.txd" />
+        <file src="2.dff" />
+        <file src="3.dff" />
+        <file src="4.dff" />
+        <file src="5.dff" />
+        <file src="6.dff" />
+        <file src="7.dff" />
+        <file src="8.dff" />
+        <file src="9.dff" />
+        <file src="10.dff" />
+        <file src="11.dff" />
+        <file src="12.dff" />
+        <file src="13.dff" />
+        <file src="14.dff" />
+        <file src="15.dff" />
+        <file src="16.dff" />
+        <file src="17.dff" />
+        <file src="wheel.dff" />
+</meta>

@@ -1,0 +1,8 @@
+<meta>
+    <info author="Slothman" name="Ztown" version="1.0" type="map" description="Zday Infection" gamemodes="cdm"/>
+    <map src="zombietown.map" /> 
+	<settings>
+		<setting name="#Zlimit" value="[70]" />
+	</settings>
+	<script src="Zombietown_server.lua" />
+</meta>

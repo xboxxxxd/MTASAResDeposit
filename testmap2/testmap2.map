@@ -1,0 +1,5 @@
+<map edf:definitions="editor_main">
+    <removeWorldObject id="removeWorldObject (CE_dblbarn01) (1)" radius="27.760225" interior="0" model="3375" lodModel="3376" posX="1070.4766" posY="-355.16406" posZ="77.33594" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (BinNt07_LA) (1)" breakable="true" interior="0" alpha="255" model="1337" doublesided="false" scale="1" dimension="0" posX="1098.5488" posY="-336.92871" posZ="73.49219" rotX="0" rotY="0" rotZ="0"></object>
+    <object id="object (garage_sfn01) (1)" breakable="true" interior="0" alpha="255" model="9321" doublesided="false" scale="1" dimension="0" posX="1070.8" posY="-358" posZ="77" rotX="0" rotY="0" rotZ="86"></object>
+</map>

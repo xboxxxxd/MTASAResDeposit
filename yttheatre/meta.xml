@@ -1,0 +1,14 @@
+<meta>
+    <info authorserial="B2A2EB3AFAB71306F99E0A12B4EF52A1" name="Cinema" type="script" author="Loki" version="1.4.1" description="&#x0A;"></info>
+    <script type="client" src="textlib.lua" cache="true"></script>
+    <script type="client" src="screen.lua" cache="true"></script>
+    <script src="remote.lua"></script>
+    <script src="map/mapEditorScriptingExtension_s.lua" type="server"></script>
+    <script src="map/mapEditorScriptingExtension_c.lua" validate="false" type="client"></script>
+    <map src="map/cinemamap.map" dimension="0"></map>
+    <settings>
+    	<setting name="*cinemaCommand" value="yt"></setting>
+        <setting name="*cinemaACLAccess" value="Everyone"></setting>
+        <setting name="*cinemaDimensions" value="0"></setting>
+    </settings>
+</meta>
