@@ -1,0 +1,22 @@
+<meta>
+	<info name="AT" longname="Auto Teams" description="Assigns players to teams based on Clantag and/or ACL Group" author="driver2 - fixed by GTX#" type="script" version="1.1.2" />
+	<script src="server.lua" type="server" />
+	<config src="config.xml" type="server" />
+	<settings>
+		<!-- *****************************************************
+			 All these settings are adjustable in the Admin Panel:
+				1. start admin
+				2. press 'p'
+				3. select Resources tab
+				4. double click on 'autoteams'
+			 ***************************************************** -->
+
+		<setting name="*noEmptyTeams" value="true"
+					friendlyname="No empty teams"
+					group="Main"
+					accept="true/false"
+					examples=""
+					desc="If enabled, this will remove teams that have no players and only create a team as soon as a player joins it. This setting might not take effect immediately."
+					/>
+	</settings>
+</meta>

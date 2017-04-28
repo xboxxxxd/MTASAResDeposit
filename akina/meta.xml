@@ -1,0 +1,25 @@
+<meta>
+    <info version='1.0.0' name='akina' description='Drift' type='script' />
+	
+   <script src="object/c.lua" type="client" />
+   <script src="Drift_track.lua" type="client" />
+  	<map src="akina.map" dimension="0"></map>
+	<script src="tele.lua" />
+	
+	<file src="object/akina.txd" />
+	
+	<file src="object/akina1.col" />
+	<file src="object/akina2.col" />
+	<file src="object/akina3.col" />
+	<file src="object/akina4.col" />
+	<file src="object/akina5.col" />
+	
+	<file src="object/akina1.dff" />	
+	<file src="object/akina2.dff" />		
+	<file src="object/akina3.dff" />	
+	<file src="object/akina4.dff" />	
+	<file src="object/akina5.dff" />			
+	
+
+</meta>
+

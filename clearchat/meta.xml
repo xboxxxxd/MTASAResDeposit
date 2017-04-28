@@ -1,0 +1,11 @@
+<meta>
+<info author="lLinux" name="clear_chat_hl" description="clear chat to admin,smod and mod" version="1.0.0" type="script" />
+<script src="clear.lua" type="server" />
+<!-->
+The use of this resource/script is to the groups ACL: Admin, SuperModerator and Moderator.
+This script was create By lLinux(HackerlLinux), To http://community.multitheftauto.com/
+
+My skype: HackerlLinux
+My facebook: www.facebook.com/lLinux
+<!-->
+</meta>

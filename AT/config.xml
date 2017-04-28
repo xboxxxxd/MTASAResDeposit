@@ -1,0 +1,11 @@
+<teams>
+<team name="Normal Players" color="#FFff00" tag="[T]" aclGroup="Everyone" required="group" />
+<team name="Trusted Players" color="#00ff00" tag="[t]" aclGroup="TrustedMembers" required="group" />
+<team name="The Etage Crew" color="#FF9900" tag="[TE]" aclGroup="TEC" required="tag" />
+<team name="|VIP|" color="#1D00FF" tag="|VIP|" aclGroup="Vip" required="tag" />
+<team name="Staff" color="#FF0041" tag="[STAFF]" aclGroup="Moderator" required="tag" />
+<team name="MOGA Member" color="#FF0000" tag="[MOGA]" aclGroup="Member" required="acl" />
+<team name="MOGA HQ Member" color="#8A0808" tag="[MOGAHQ]" aclGroup="Admin" required="tag" />
+<team name="SideWayZ Clan" color="#65008B" tag="S-WayZ|" aclGroup="SideWayZ" required="tag" />
+</teams>
+

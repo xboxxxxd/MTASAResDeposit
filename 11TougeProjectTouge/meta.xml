@@ -1,0 +1,8 @@
+<meta>
+    <info author="[GT]zorrigas y [GT]Scarface" description="Robada Pass" version="2.0" type="map" />
+	<script src="tougeproject.lua" type="client" />
+	<script src="tougemap.lua" type="client" />
+    <file src="springshorse.txd" />
+    <file src="springshorse.col" />
+    <file src="projectouge.dff" />
+</meta>
