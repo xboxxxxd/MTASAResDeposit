@@ -1,0 +1,7 @@
+<meta>
+    <info author='onix' version='1.0.3' name='longview' description='long-view' type='script' />
+
+    <script src="client.lua" type="client" />
+
+
+</meta>

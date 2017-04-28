@@ -1,0 +1,17 @@
+<catalog type="weapon">
+	<group name="Hand">
+		<weapon id="1" name="Brass knuckles" />
+	</group>
+
+	<group name="Handguns">
+	</group>
+	
+	<group name="Other">
+		<weapon id="14" name="Flowers" />
+		<weapon id="10" name="Long dildo" />
+		<weapon id="11" name="Short dildo" />
+		<weapon id="12" name="Vibrator" />
+                <weapon id="46" name="Parachute" />
+                <weapon id="43" name="Camera" />
+	</group>
+</catalog>

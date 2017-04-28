@@ -1,0 +1,264 @@
+<catalog type="vehicle">
+	<group name="Real cars(*New*)">
+		<group name="Sports/Tuner">
+                	<vehicle id="580" name="Audi RS4" />
+                        <vehicle id="587" name="BMW E36" />
+                	<vehicle id="474" name="BMW E36" />
+                	<vehicle id="602" name="BMW M4 2015" />
+                        <vehicle id="579" name="BMX X5m" />
+                        <vehicle id="470" name="BMX X6m" />
+                        <vehicle id="546" name="BMW M5 E34" />
+                        <vehicle id="589" name="Ford Focus RS" />
+                        <vehicle id="400" name="Jeep Grand Cherokee" />
+                        <vehicle id="585" name="Mercedes Benz" />
+                        <vehicle id="458" name="Mustang 2015 RTR" />
+                	<vehicle id="496" name="Volkswagen Golf MK 4" />
+		</group>
+		<group name="Super">
+                	<vehicle id="506" name="Lamborghini Countach" />
+                	<vehicle id="477" name="Lamborghini Diablo SV" />
+                        <vehicle id="411" name="Koenigsegg Agera" />
+                        <vehicle id="480" name="Porsche RWB" />
+		</group>
+		<group name="JDM">
+                	<vehicle id="565" name="Honda Civic" />
+			<vehicle id="549" name="Mazda RX-8" />
+			<vehicle id="527" name="Nissan 240sx" />
+                	<vehicle id="533" name="Nissan 370z" />
+                        <vehicle id="439" name="Nissan Skyline R33" />
+                        <vehicle id="529" name="Nissan Skyline er34" />
+			<vehicle id="518" name="Nissan Silvia S13" />
+			<vehicle id="562" name="Nissan Silvia S14" />
+                	<vehicle id="415" name="Nissan Silvia S15" />
+                	<vehicle id="445" name="Nissan Skyline 2000 GTR" />
+                        <vehicle id="558" name="Nissan Skyline r34" />
+                        <vehicle id="535" name="Nissan GTR" />
+                        <vehicle id="551" name="Nissan Skyline GTR 35(GT-Shop)" />
+                        <vehicle id="540" name="Subaru Impreza" />
+                        <vehicle id="451" name="Toyota AE-86" />
+                        <vehicle id="576" name="Toyota GT-86 Falken" />
+			<vehicle id="405" name="Toyota Supra" />
+                        <vehicle id="507" name="Toyota Chaser" />
+                        <vehicle id="526" name="Lexus Sc300" />
+                        <vehicle id="466" name="Lexus ISF" />
+		</group>
+		<group name="Muscle">
+                        <vehicle id="412" name="Buick GNX" />                
+			<vehicle id="503" name="Dodge Challenger GT-S" />
+                        <vehicle id="603" name="Dodge Challenger" />
+			<vehicle id="534" name="Dodge Charger R/T" />
+		</group>
+	</group>
+	<group name="Special">
+                        <vehicle id="433" name="Barracks" />
+			<vehicle id="597" name="Police1" />
+                        <vehicle id="598" name="Police2" />
+                        <vehicle id="596" name="Police3" />
+                        <vehicle id="599" name="Police ranger" />
+                        <vehicle id="490" name="FBI car" />
+		<group name="Helis">
+			<vehicle id="425" name="Army Helicopter" />
+			<vehicle id="520" name="Hydra" />
+                        <vehicle id="487" name="Maverick" />
+		</group>
+		<group name="Tanks">
+			     <vehicle id="432" name="Rhino" />
+		             <vehicle id="601" name="S.W.A.T. Tank" />
+		</group>
+	</group>
+	<group name="Modded Bikes(*New*)">
+		<group name="Bikes">
+                        <vehicle id="521" name="Ducati Desmosedici RR 2012" />
+                        <vehicle id="522" name="Kawasaki Ninja Zx 6r" />
+                        <vehicle id="471" name="GTA V Quad" />
+                        <vehicle id="461" name="PCJ-600" />
+                        <vehicle id="463" name="Freeway" />
+                        <vehicle id="523" name="HPV1000" />
+                        <vehicle id="581" name="BF-400" />
+                        <vehicle id="468" name="Sanchez" />
+                        <vehicle id="448" name="PizzaBoy" />
+                        <vehicle id="586" name="Voshod 3m" />
+                        <vehicle id="462" name="Faggio" />
+		</group>
+	</group>
+	<group name="Aircraft">
+		<group name="Helicopters">
+			<vehicle id="548" name="Cargobob" />
+			<vehicle id="425" name="Hunter" />
+			<vehicle id="417" name="Leviathan" />
+			<vehicle id="487" name="Maverick" />
+			<vehicle id="488" name="News Chopper" />
+			<vehicle id="497" name="Police Maverick" />
+			<vehicle id="563" name="Raindance" />
+			<vehicle id="447" name="Seasparrow" />
+			<vehicle id="469" name="Sparrow" />
+		</group>
+		<group name="Planes, Jets and Airlines">
+			<vehicle id="592" name="Andromada(Enterable)" />
+			<vehicle id="577" name="AT-400" />
+			<vehicle id="511" name="Beagle" />
+			<vehicle id="512" name="Cropduster" />
+			<vehicle id="593" name="Dodo" />
+			<vehicle id="520" name="Hydra" />
+			<vehicle id="553" name="Nevada" />
+			<vehicle id="476" name="Rustler" />
+			<vehicle id="519" name="Shamal" />
+			<vehicle id="460" name="Skimmer" />
+			<vehicle id="513" name="Stuntplane" />
+		</group>
+	</group>
+	<group name="Bicycles">
+		<group name="Bicycles">
+			<vehicle id="509" name="Bike" />
+			<vehicle id="481" name="BMX" />
+			<vehicle id="510" name="Mountain bike" />
+		</group>
+	</group>
+	<group name="Boats">
+		<vehicle id="472" name="Coastguard" />
+		<vehicle id="473" name="Dinghy" />
+		<vehicle id="493" name="Jetmax" />
+		<vehicle id="595" name="Launch" />
+		<vehicle id="484" name="Marquis" />
+		<vehicle id="430" name="Predator" />
+		<vehicle id="453" name="Reefer" />
+		<vehicle id="452" name="Speeder" />
+		<vehicle id="446" name="Squalo" />
+		<vehicle id="454" name="Tropic" />
+	</group>
+	<group name="Cars">
+		<group name="Lowriders">
+			<vehicle id="536" name="Blade" />
+			<vehicle id="575" name="Broadway" />
+			<vehicle id="419" name="Esperanto" />
+			<vehicle id="534" name="Remington" />
+			<vehicle id="576" name="Tornado" />
+			<vehicle id="412" name="Voodoo" />
+		</group>
+		<group name="2-Door">
+			<vehicle id="542" name="Clover" />
+			<vehicle id="491" name="Virgo" />
+		</group>
+		<group name="4-Door">
+			<vehicle id="438" name="Cabbie" />
+			<vehicle id="507" name="Elegant" />
+			<vehicle id="466" name="Glendale" />
+			<vehicle id="492" name="Greenwood" />
+			<vehicle id="467" name="Oceanic" />
+			<vehicle id="426" name="Premier" />
+			<vehicle id="409" name="Stretch" />
+			<vehicle id="566" name="Tahoma" />
+			<vehicle id="420" name="Taxi" />
+			<vehicle id="421" name="Washington" />
+		</group>
+	</group>
+	<group name="Emergency">
+		<vehicle id="416" name="Ambulance" />
+		<vehicle id="433" name="Barracks" />
+		<vehicle id="427" name="Enforcer" />
+		<vehicle id="490" name="FBI rancher" />
+		<vehicle id="528" name="FBI truck" />
+		<vehicle id="407" name="Fire truck" />
+		<vehicle id="544" name="Fire truck (ladder)" />
+		<vehicle id="596" name="Police car (LS)" />
+		<vehicle id="598" name="Police car (LV)" />
+		<vehicle id="597" name="Police car (SF)" />
+		<vehicle id="599" name="Police ranger" />
+		<vehicle id="432" name="Rhino" />
+		<vehicle id="601" name="S.W.A.T." />
+	</group>
+	<group name="Heavy Vehicles">
+		<group name="Industrial">
+			<vehicle id="524" name="Cement truck" />
+			<vehicle id="578" name="DFT-30" />
+			<vehicle id="486" name="Dozer" />
+			<vehicle id="406" name="Dumper" />
+			<vehicle id="573" name="Dune" />
+			<vehicle id="455" name="Flatbed" />
+			<vehicle id="530" name="Forklift" />
+			<vehicle id="403" name="Linerunner" />
+			<vehicle id="443" name="Packer" />
+			<vehicle id="515" name="Roadtrain" />
+			<vehicle id="574" name="Sweeper" />
+			<vehicle id="514" name="Tanker" />
+			<vehicle id="525" name="Towtruck" />
+			<vehicle id="408" name="Trashmaster" />
+			<vehicle id="552" name="Utility van" />
+		</group>
+		<group name="Trailers">
+			<vehicle id="606" name="Baggage trailer (covered)" />
+			<vehicle id="607" name="Baggage trailer (Uncovered)" />
+			<vehicle id="610" name="Farm trailer" />
+			<vehicle id="537" name="Freight train" />
+			<vehicle id="590" name="Freight train boxcar" />
+			<vehicle id="569" name="Freight train flatbed" />
+			<vehicle id="611" name="Street Clean trailer" />
+			<vehicle id="584" name="Gas trailer" />
+			<vehicle id="608" name="Trailer 1" />
+			<vehicle id="435" name="Trailer 2" />
+			<vehicle id="450" name="Trailer 3" />
+			<vehicle id="591" name="Trailer 4" />
+		</group>
+		<group name="Trucks">
+			<vehicle id="499" name="Benson" />
+			<vehicle id="609" name="Black Boxville" />
+			<vehicle id="422" name="Bobcat" />
+			<vehicle id="498" name="Boxville" />
+			<vehicle id="414" name="Mule" />
+			<vehicle id="600" name="Picador" />
+			<vehicle id="543" name="Sadler" />
+			<vehicle id="428" name="Securicar" />
+			<vehicle id="478" name="Walton" />
+			<vehicle id="456" name="Yankee" />
+			<vehicle id="554" name="Yosemite" />
+		</group>
+		<group name="Vans">
+			<vehicle id="459" name="Berkley's RC van" />
+			<vehicle id="482" name="Burrito" />
+			<vehicle id="483" name="Camper" />
+			<vehicle id="508" name="Journey" />
+			<vehicle id="418" name="Moonbeam" />
+			<vehicle id="582" name="News van" />
+			<vehicle id="413" name="Pony" />
+			<vehicle id="440" name="Rumpo" />
+		</group>
+	</group>
+	<group name="Misc">
+		<group name="Other">
+			<vehicle id="485" name="Baggage" />
+			<vehicle id="568" name="Bandito" />
+			<vehicle id="504" name="Bloodring Banger" />
+			<vehicle id="538" name="Brownstreak Engine" />
+			<vehicle id="431" name="Bus" />
+			<vehicle id="457" name="Caddy" />
+			<vehicle id="437" name="Coach" />
+			<vehicle id="532" name="Combine harvester" />
+			<vehicle id="588" name="Hotdog" />
+			<vehicle id="444" name="Monster" />
+			<vehicle id="556" name="Monster 2" />
+			<vehicle id="557" name="Monster 3" />
+			<vehicle id="572" name="Mower" />
+			<vehicle id="423" name="Mr. Whoopee" />
+			<vehicle id="571" name="Kart" />
+			<vehicle id="531" name="Tractor" />
+			<vehicle id="449" name="Trolly" />
+			<vehicle id="583" name="Tug" />
+			<vehicle id="539" name="Vortex" />
+		</group>
+		<group name="RC Vehicles">
+			<vehicle id="441" name="RC Bandit" />
+			<vehicle id="464" name="RC Baron" />
+			<vehicle id="594" name="RC Flower Pot" />
+			<vehicle id="501" name="RC Goblin" />
+			<vehicle id="465" name="RC Raider" />
+			<vehicle id="564" name="RC Tiger" />
+		</group>
+	</group>
+	<group name="SUVs and Wagons">
+		<vehicle id="400" name="Landstalker" />
+		<vehicle id="404" name="Perennial" />
+		<vehicle id="479" name="Regina" />
+		<vehicle id="442" name="Romero" />
+		<vehicle id="458" name="Solair" />
+	</group>
+</catalog>

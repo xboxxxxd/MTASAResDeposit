@@ -1,0 +1,11 @@
+<map>
+  <radararea posX="-50" posY="-50" sizeX="100" sizeY="100" color="#00FF007F" dimension="0" />
+  <!--   
+    Warning! for being a greenzone the color MUST be #00FF007F ! (that's green.)
+    You can add as much greenzones as you want :> although i haven't tested more as 200 greenzones or so o,o
+    This is the same greenzone script as on my server (GameNet.fi roleplay) !
+    
+    Standard-style
+    <radararea posX="x" posY="y" sizeX="sx" sizeY="sy" color="#00FF007F" dimension="0" />
+  -->
+</map>

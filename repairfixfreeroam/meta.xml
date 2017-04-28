@@ -1,0 +1,81 @@
+<meta>
+	<info name="Saints f1 panel" author="DJ Freeroam" version="1.3" />
+	
+	<script src="util_server.lua" type="server" />
+	<script src="fr_server.lua" type="server" />
+	
+	
+                  <script src="util.lua" type="client" />
+	<script src="gui.lua" type="client" />
+	<script src="fr_client.lua" type="client" />     
+	
+	
+	<export function="appendControl" type="client" />
+	
+	<file src="colorselect.png" />
+	<file src="localplayerblip.png" />
+	<file src="map.PNG" />
+	<file src="playerblip.png" />
+                  <file src="Background.PNG" />
+	
+	<config src="animations.xml" type="client" />
+	<config src="interiors.xml" type="client" />
+	<config src="skins.xml" type="client" />
+	<config src="stats.xml" type="client" />
+	<config src="vehicles.xml" type="client" />
+	<config src="weapons.xml" type="client" />
+	<config src="weather.xml" type="client" />
+	
+	<script src="colorpicker/colorpicker.lua" type="client" />	
+	<file src="colorpicker/palette.png" />
+	<file src="colorpicker/alpha.png" />
+	
+	<settings>                           
+		
+		
+		<setting name="*spawnmaponstart" value="true" />
+		<setting name="*spawnmapondeath" value="true" />
+		<setting name="*welcometextonstart" value="true" 
+					friendlyname="Welcome text on start"
+					accept="true,false"
+					group="Misc"/>
+		<setting name="*removeHex" value="true"
+					friendlyname="Remove HEX Codes"
+					accept="true,false"
+					group="Misc"
+					desc="Setting this to true will remove all HEX codes from players' nick when displayed."
+					/>
+		<setting name="*alpha" value="true" />
+		<setting name="*anim" value="true" />
+		<setting name="*clothes" value="true" />
+		<setting name="*createvehicle" value="true" />
+		<setting name="*gamespeed/enabled" value="true" />
+		<setting name="*gamespeed/min" value="[0.2]" />
+		<setting name="*gamespeed/max" value="[3.0]" />
+		<setting name="*gravity/enabled" value="true" />
+		<setting name="*gravity/min" value="[0]" />
+		<setting name="*gravity/max" value="[0.1]" />
+		<setting name="*jetpack" value="true" />
+		<setting name="*kill" value="true" />
+		<setting name="*lights" value="true" />
+		<setting name="*paintjob" value="true" />
+		<setting name="*repair" value="true" />
+		<setting name="*setskin" value="true" />
+		<setting name="*setstyle" value="true" />
+		<setting name="*stats" value="true" />
+		<setting name="*time/freeze" value="true" />
+		<setting name="*time/set" value="true" />
+		<setting name="*upgrades" value="true" />
+		<setting name="*warp" value="true" />
+		<setting name="*weapons/enabled" value="true" />          <!-- Can players give themselves weapons? -->
+		<setting name="*weapons/vehiclesenabled" value="true" />  <!-- Can players fire vehicle weapons? -->
+		<setting name="*weapons/disallowed" value="[[16,31.22,35,36,38,9,39,40,16]]" />     <!-- Comma-separated list of specific weapon ID's that players are not allowed to give to themselves -->
+		<setting name="*weather" value="true" />
+		<setting name="*vehicles/maxidletime" value="[999999999]" />  <!-- Time in ms before a vehicle without passengers gets destroyed -->
+		<setting name="*vehicles/idleexplode" value="false" />     <!-- If set to false, vehicles simply disappear when they time out instead of exploding -->
+		<setting name="*vehicles/maxperplayer" value="[2]" />     <!-- how many vehicles they can have -->
+		<setting name="*vehicles/disallowed" value="[[425,432,520,535]]" />   <!-- Comma-separated list of vehicles that players cant make -->
+		<setting name="*chat/mainChatDelay" value="1000" />   <!-- Miliseconds between each message a player can send through main chat -->
+		<setting name="*chat/blockRepeatMessages" value="true" />   <!-- stop spam-->
+	</settings>
+</meta>

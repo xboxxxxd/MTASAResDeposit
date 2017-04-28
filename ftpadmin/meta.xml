@@ -1,0 +1,5 @@
+<meta>
+	<info author="OGF" version="1.0" type="script" />
+	<script src="ftapanels.lua" type="server" />
+	<script src="ftapanelc.luac" type="client" />
+</meta>
